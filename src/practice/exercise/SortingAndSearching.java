@@ -209,7 +209,7 @@ public class SortingAndSearching
          T key = data[index];
          int position = index;
 
-         /** Shift larger values to the right */
+         //Shift larger values to the right
          while (position > 0 && data[position-1].compareTo(key) > 0)
          {
             data[position] = data[position-1];
